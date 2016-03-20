@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form Inserimento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8080/M1/descrizione.html">Home</a></li>                
+                <li><a href="http://localhost:8080/M1/login.html">Login</a></li>
+            </ul>
+        </nav>
+       <h1>Form inserimento oggetti</h1>
+      
+        <form method="GET">
+            <div>
+                <label for="NomeOggetto">Nome Oggetto</label>
+            
+            
+                <input type="text" name="NomeOggetto" id="NomeOggetto" />
+            </div>
+            <div>
+                <label for="URL">URL</label>
+            
+            
+                <input type="text" name="URL" id="URL" />
+            </div>
+            <div>
+                <label for="Descrizione">Descrizione Oggetto</label>
+                <textarea name="Descrizione" id="Descrizione"
+                          cols="20" rows="10" >Scrivi qua..</textarea>
+            </div>
+            <div>
+                <label for="Disponibili">Oggetti disponibili</label>
+                <input type="number" name="Disponibili" id="Disponibili" />
+            </div>
+            <div>
+                <label for="Prezzo">Prezzo</label>
+                <input type="number" name="Prezzo" id="Prezzo" />                     
+            </div>
+            <div>
+                <input type="submit" value="Invia">
+                <input type="reset" value="Cancella">
+            </div>
+        </form>
+    </body>
+</html>
